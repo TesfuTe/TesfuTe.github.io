@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tesfu Hailu | Software Developer</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #111;
+      --secondary: #555;
+      --accent: #0a66c2;
+      --bg: #ffffff;
+      --section-gap: 2.2rem;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background: var(--bg);
+      color: var(--primary);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 3rem 1.5rem;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    header h2 {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: var(--secondary);
+      margin-top: 0.5rem;
+    }
+
+    .contact {
+      margin-top: 1.2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.2rem;
+      font-size: 0.95rem;
+    }
+
+    .contact a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .contact i {
+      margin-right: 0.4rem;
+      color: var(--accent);
+    }
+
+    /* Sections */
+    section {
+      margin-bottom: var(--section-gap);
+    }
+
+    section h3 {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.3rem;
+    }
+
+    /* Entries */
+    .entry {
+      margin-bottom: 1.4rem;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .entry-title {
+      font-weight: 600;
+    }
+
+    .entry-org {
+      font-style: italic;
+      color: var(--secondary);
+    }
+
+    .entry-meta {
+      font-size: 0.9rem;
+      color: var(--secondary);
+      white-space: nowrap;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    /* Skills */
+    .skills li {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .skills span {
+      font-weight: 600;
+    }
+
+    /* Languages */
+    .languages {
+      columns: 2;
+    }
+
+    @media (max-width: 700px) {
+      .languages {
+        columns: 1;
+      }
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: var(--secondary);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Tesfu Hailu</h1>
+      <h2>Software Developer</h2>
+
+      <div class="contact">
+        <span><i class="fa-solid fa-phone"></i> +46 739 793 784</span>
+        <a href="mailto:taffletekleab@gmail.com"><i class="fa-solid fa-envelope"></i> taffletekleab@gmail.com</a>
+        <span><i class="fa-solid fa-location-dot"></i> Göteborg, Sweden</span>
+        <a href="https://www.linkedin.com/in/tesfu/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> linkedin.com/in/tesfu
+        </a>
+        <a href="https://github.com/TesfuTe" target="_blank">
+          <i class="fa-brands fa-github"></i> github.com/TesfuTe
+        </a>
+        <a href="https://x.com/TesfuTeHa" target="_blank">
+          <i class="fa-brands fa-x-twitter"></i> x.com/TesfuTeHa
+        </a>
+      </div>
+    </header>
+
+    <section>
+      <h3>Profile</h3>
+      <p>
+        Software developer with 6+ years of experience across backend development, DevOps,
+        automation testing, and technical leadership. Known for a quality-driven mindset,
+        performance-focused implementations, and collaborative team contributions.
+      </p>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+
+      <div class="entry">
+        <div class="entry-header">
+          <div>
+            <div class="entry-title">MSc Software Engineering and Technology</div>
+            <div class="entry-org">
+              <a href="https://www.chalmers.se/en/education/find-masters-programme/software-engineering-and-technology-msc/" target="_blank">
+                Chalmers University of Technology
+              </a>
+            </div>
+          </div>
+          <div class="entry-meta">2024 – Present · Göteborg, Sweden</div>
+        </div>
+        <p>
+          Relevant courses: Quality assurance & software testing, advanced requirements engineering,
+          architectural scaling systems (DevOps), data science & AI, project management,
+          data structures & algorithms.
+        </p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <div>
+            <div class="entry-title">BSc Information Technology</div>
+            <div class="entry-org">
+              <a href="https://www.mu.edu.et/" target="_blank">Mekelle University</a>
+            </div>
+          </div>
+          <div class="entry-meta">2012 – 2017 · Mekelle, Ethiopia</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Professional Experience</h3>
+
+      <div class="entry">
+        <div class="entry-header">
+          <div>
+            <div class="entry-title">Backend Developer</div>
+            <div class="entry-org"><a href="https://mabel.care/" target="_blank">Mabel AI AB</a></div>
+          </div>
+          <div class="entry-meta">Jan 2024 – Jun 2024 · Göteborg</div>
+        </div>
+        <ul>
+          <li>Built multilingual ASR, NMT, and TTS API endpoints using ML models</li>
+          <li>Improved TTS performance by 71.43% via in-memory buffering</li>
+          <li>Implemented CI/CD pipelines using GitHub Actions & Azure Kubernetes</li>
+          <li>Reduced NMT codebase from 370 → 180 lines</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <div>
+            <div class="entry-title">Software Tester</div>
+            <div class="entry-org"><a href="http://thetahses.com/" target="_blank">Tahses ICT & Consultancy PLC</a></div>
+          </div>
+          <div class="entry-meta">Apr 2023 – Aug 2023 · Addis Ababa</div>
+        </div>
+        <ul>
+          <li>Designed user-story based test plans and test cases</li>
+          <li>Introduced automation testing into legacy systems</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <div>
+            <div class="entry-title">Full-Stack Developer & Team Lead</div>
+            <div class="entry-org"><a href="https://allenatech.net/" target="_blank">Allenatech Electronic Technologies</a></div>
+          </div>
+          <div class="entry-meta">May 2019 – Jan 2022 · Mekelle</div>
+        </div>
+        <ul>
+          <li>Developed ERP systems across HR, SCM, and e-services</li>
+          <li>Led and mentored a team of 9 developers</li>
+          <li>Managed large-scale, time-critical enterprise projects</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h3>Skills</h3>
+      <ul class="skills">
+        <li><span>Languages:</span> Python, Java, JavaScript, PHP, C, C++</li>
+        <li><span>DevOps & Cloud:</span> Docker, Kubernetes, Azure, GCP, Git, GitHub</li>
+        <li><span>Frameworks:</span> FastAPI, Laravel, Vue.js, pytest, Tailwind CSS</li>
+        <li><span>Tools:</span> Jira, SonarQube, VS Code</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Languages</h3>
+      <ul class="languages">
+        <li>English – Professional</li>
+        <li>Tigrigna – Native</li>
+        <li>Amharic – Native</li>
+        <li>Svenska – Basic (SFI C)</li>
+      </ul>
+    </section>
+
+    <footer>
+      © 2026 Tesfu Hailu · GitHub Pages
+    </footer>
+
+  </div>
+</body>
+</html>
